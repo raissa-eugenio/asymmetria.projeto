@@ -15,16 +15,105 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Winky+Sans:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
 
-<link rel="icon" href="assets/img/favicon.ico" type="img/x-icon">
+  <!--Favicon-->
+  <link rel="shortcut icon" href="assets/img/favicon.ico" type="image/x-icon">
 
     <link rel="stylesheet" href="assets/css/style.css">
+
+    
 </head>
 <body>
+
+     <!--header-->
+     <header class="header active">
+        <div class="container">
+            <button class="search-btn" id="searchToggle" aria-label="Buscar"></button>
+            <a href="#" class="logo">
+                <img src="assets/img/assymmetria-logo.png" alt="logo Asymmetria"/>
+            </a>
+
+            <!--Nav menu-->
+            <nav class="navbar active">
+                <ul class="navbar-list">
+                    <li class="navbar-item">
+                        <a href="#" class="navbar-link">Home</a>
+                    </li>
+
+                    <li class="navbar-item">
+                        <a href="#" class="navbar-link">A Loja</a>
+                    </li>
+
+                    <!--dropdown-->
+                    <li class="dropdown-item">
+                        <div class="navbar-link dropdown-toggle">
+                            Itens <ion-icon name="chevron-down-outline"></ion-icon>
+                        </div>
+
+                        <ul class="dropdown-menu">
+                            <li>
+                                <a href="#" class="dropdown-link">
+                                    Anéis
+                                </a>
+                            </li>
+
+                            <li>
+                                <a href="#" class="dropdown-link">
+                                    Colares
+                                </a>
+                            </li>
+
+                            <li>
+                                <a href="#" class="dropdown-link">
+                                    Brincos
+                                </a>
+                            </li>
+
+                            <li>
+                                <a href="#" class="dropdown-link">
+                                    Braceletes
+                                </a>
+                            </li>
+
+                            <li>
+                                <a href="#" class="dropdown-link">
+                                    pulseiras
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+
+                    <li>
+                        <a href="#" class="navbar-link">
+                            Contato
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+
+            <a href="#" class="btn">Login</a>
+
+
+            <button class="nav-toggle-btn" aria-label="menu mobile">
+                <ion-icon name="menu-outline"></ion-icon>
+            </button>
+        </div>
+    </header>
+
+    <!-- BANNER -->
+
+    <section class="bannner">
+        <video autoplay muted loop>
+            <source src="assets/videos/6248737_Woman_Caucasian_1920x1080.mp4" type="video/mp4">
+        </video>
+    </section>
+        
 
     <!-- script -->
      <script src="assets/js/script.js"></script>
     <!-- Ionicons -->
     <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+
+    <script src="https://kit.fontawesome.com/7d2f7702ca.js" crossorigin="anonymous"></script>
 </body>
 </html>
