@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,26 +9,31 @@
     <title>Assymmetria</title>
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Winky+Sans:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Winky+Sans:ital,wght@0,300..900;1,300..900&display=swap"
+        rel="stylesheet">
 
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Winky+Sans:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Winky+Sans:ital,wght@0,300..900;1,300..900&display=swap"
+        rel="stylesheet">
 
-  <!--Favicon-->
-  <link rel="shortcut icon" href="assets/img/favicon.ico" type="image/x-icon">
+    <!--Favicon-->
+    <link rel="shortcut icon" href="assets/img/favicon.ico" type="image/x-icon">
 
     <link rel="stylesheet" href="assets/css/style.css">
 
 </head>
+
 <body>
 
-     <!--header-->
-     <header class="header active">
+    <!--header-->
+    <header class="header active">
         <div class="container">
             <a href="#" class="logo">
-                <img src="assets/img/assymmetria-logo.png" alt="logo Asymmetria"/>
+                <img src="assets/img/assymmetria-logo.png" alt="logo Asymmetria" />
             </a>
 
             <!--Nav menu-->
@@ -38,14 +44,13 @@
                     </li>
 
                     <li class="navbar-item">
-                        <a href="#" class="navbar-link">A Loja</a>
+                        <a href="estudio" class="navbar-link">A Loja</a>
                     </li>
 
                     <!--dropdown-->
                     <li class="dropdown-item">
-                        <div class="navbar-link dropdown-toggle" 
-                        data-dropdown-toggle>
-                            Itens 
+                        <div class="navbar-link dropdown-toggle" data-dropdown-toggle>
+                            Itens
                             <ion-icon name="chevron-down-outline"></ion-icon>
                         </div>
 
@@ -92,19 +97,14 @@
 
             <!-- Overlay da busca -->
 
-        <div class="search-overlay" id="searchOverlay">
-            <button class="close-btn" id="closeSearch" aria-label="Fechar busca">
-              <ion-icon name="close-outline"></ion-icon>
-            </button>
-            <div class="search-container">
-              <input
-                type="text"
-                placeholder="O que você está procurando?"
-                class="search-input"
-                autofocus
-              />
+            <div class="search-overlay" id="searchOverlay">
+                <button class="close-btn" id="closeSearch" aria-label="Fechar busca">
+                    <ion-icon name="close-outline"></ion-icon>
+                </button>
+                <div class="search-container">
+                    <input type="text" placeholder="O que você está procurando?" class="search-input" autofocus />
+                </div>
             </div>
-          </div>
 
             <button class="nav-toggle-btn" aria-label="menu mobile">
                 <ion-icon name="menu-outline"></ion-icon>
@@ -121,33 +121,163 @@
     </section>
 
     <!-- GALERIA DE IMAGENS -->
-        <section class="section gallery">
-            <div class="container-galeria">
-                <p class="section-subtitle text-center">Nosso Trabalho</p>
-                <h2 class="h2 text-center">Confira o trabalho dos nossos artistas</h2>
-            </div>
+    <section class="section gallery">
+        <div class="container-galeria">
+            <p class="section-subtitle text-center">Nosso Trabalho</p>
+            <h2 class="h2 text-center">Confira o trabalho dos nossos artistas</h2>
+        </div>
 
-            <div class="galeria">
-                <img src="assets/img/foto1.jpg" alt="foto1" />
-                <img src="assets/img/foto2.jpg" alt="foto2"/>
-                <img src="assets/img/foto3.jpg" alt="foto3"/>
-                <img src="assets/img/foto4.jpg" alt="foto4"/>
-            </div>
-            <div class="botao-ver-mais">
-                <a href="#" class="btn-ver-mais" title="ver galeria">
-                    <ion-icon name="arrow-forward-outline"></ion-icon>
-                </a>
-            </div>
+        <div class="galeria">
+            <img src="assets/img/foto1.jpg" alt="foto1" />
+            <img src="assets/img/foto2.jpg" alt="foto2" />
+            <img src="assets/img/foto3.jpg" alt="foto3" />
+            <img src="assets/img/foto4.jpg" alt="foto4" />
+        </div>
+        <div class="botao-ver-mais">
+            <a href="#" class="btn-ver-mais" title="ver galeria">
+                <ion-icon name="arrow-forward-outline"></ion-icon>
+            </a>
+        </div>
 
-            <!--LIGHTBOX-->
-            <div class="lightbox" id="lightbox">
-                <img src="" alt="imagem ampliada" id="lightbox-img"/>
+        <!--LIGHTBOX-->
+        <div class="lightbox" id="lightbox">
+            <img src="" alt="imagem ampliada" id="lightbox-img" />
+        </div>
+    </section>
+
+    <!-- SERVIÇOS -->
+    <section class="section service" aria-label="service">
+        <div class="container-serv">
+            <p class="section-subtitle text-center">Nossos Serviços</p>
+            <h2 class="h2 section-title text-center"> O que Vendemos</h2>
+            <ul class="service-list">
+                <li>
+                    <div class="service-card">
+                        <div class="card-icon">
+                            <img src="assets/img/wedding-ring.png" width="50" height="50" alt="aneis" class="w-100" />
+                        </div>
+                        <div>
+                            <h3 class="h3 card-title">Anéis</h3>
+                            <p class="card-text">
+                                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Soluta pariatur unde explicabo
+                                provident aliquam saepe.
+                            </p>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="service-card">
+                        <div class="card-icon">
+                            <img src="assets/img/necklace.png" width="50" height="50" loading="lazy" alt="fine line"
+                                class="w-100" />
+                        </div>
+
+                        <div>
+                            <h3 class="h3 card-title">Colares</h3>
+
+                            <p class="card-text">
+                                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Pariatur natus tempore magni
+                                necessitatibus ratione iure.
+                            </p>
+                        </div>
+                    </div>
+                </li>
+
+                <li>
+                    <div class="service-card">
+                        <div class="card-icon">
+                            <img src="assets/img/round-earrings.png" width="50" height="50" loading="lazy"
+                                alt="cobertura" class="w-100" />
+                        </div>
+
+                        <div>
+                            <h3 class="h3 card-title">Brincos</h3>
+
+                            <p class="card-text">
+                                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Delectus, quod veniam fuga ex
+                                quo mollitia.
+                            </p>
+                        </div>
+                    </div>
+                </li>
+
+                <li class="service-banner">
+                    <figure>
+                        <img src="assets/img/assymmetria-logo.png" loading="lazy" alt="service banner" class="w-100" />
+                    </figure>
+                </li>
+
+                <li>
+                    <div class="service-card">
+                        <div class="card-icon">
+                            <img src="assets/img/bracelet.png" width="50" height="50" loading="lazy" alt="laser"
+                                class="w-100" />
+                        </div>
+
+                        <div>
+                            <h3 class="h3 card-title">Braceletes</h3>
+
+                            <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Est ad quo
+                                velit iusto, magni vitae..</p>
+                        </div>
+                    </div>
+                </li>
+
+                <li>
+                    <div class="service-card">
+                        <div class="card-icon">
+                            <img src="assets/img/ornament.png" width="50" height="50" loading="lazy" alt="piercing"
+                                class="w-100" />
+                        </div>
+                        <div>
+                            <h3 class="h3 card-title">Pulseiras</h3>
+                            <p class="card-text">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni libero quas eos esse,
+                                iusto asperiores.
+                            </p>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- LOGIN -->
+    <section class="container-login">
+        <div class="wrapper">
+            <div class="form-box login">
+                <h2>Login</h2>
+                <form action="#">
+                    <div class="input-box">
+                        <input type="text" required />
+                        <label>Usuário</label>
+                        <ion-icon name="person-sharp"></ion-icon>
+                    </div>
+
+                    <div class="input-box">
+                        <input type="text" required />
+                        <label>Senha</label>
+                        <ion-icon name="lock-closed-sharp"></ion-icon>
+                    </div>
+
+                    <button type="submit" class="btn btn-login">Entrar</button>
+
+                    <div class="logreg-link">
+                        <p>
+                            Não possui uma conta?
+                            <a href="#" class="register-link">Clique aqui</a>
+                        </p>
+                    </div>
+
+                </form>
             </div>
-        </section>
+        </div>
+    </section>
 
 
-    
-  
+
+
+
 
     <!-- script -->
     <script src="assets/js/script.js"></script>
@@ -157,4 +287,5 @@
 
     <script src="https://kit.fontawesome.com/7d2f7702ca.js" crossorigin="anonymous"></script>
 </body>
+
 </html>
