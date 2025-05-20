@@ -661,6 +661,19 @@ body {
   min-height: 100vh;
   margin: 0 auto;
   background-color: var(--black-color);
+
+  /*Abrir em tela cheio o login*/
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  display: none;
+  z-index: 1000;
+}
+
+.container-login.active{
+  display: flex;
 }
 
 .wrapper{
@@ -703,4 +716,73 @@ body {
  border-bottom: 2px solid #fff;
  color: var(--white-color);
  font-size: 16px;
+}
+
+.input-box label{
+  position: absolute;
+  top: 50%;
+  left: 0;
+  font-size: 16px;
+  color: var(--white-color);
+  transform: translateY(-50%);
+  transition: 0.5s;
+}
+
+.input-box ion-icon {
+  position: absolute;
+  top: 50%;
+  right: 0;
+  font-size: 18px;
+  color: var(--white-color);
+  transform: translateY(-50%);
+  transition: 0.5s;
+}
+
+
+/*----------------------------------*\
+#Sobre
+\*----------------------------------*/
+
+.container-sobre{
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.about .container-sobre{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 50px;
+}
+
+.section{
+  padding-block: var(--section-padding);
+}
+
+.about-banner{
+  margin-block-end: 50px;
+  position: relative;
+  max-width: 500px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.about-banner img{
+  filter: contrast(1.2) brightness(0.9);
+  transition: filter 0.4s ease;
+}
+
+.about-banner img:hover{
+  filter: contrast(1.4) brightness(1.1);
+}
+
+.about .section-text-1{
+  margin-block: 25px 15px;
+  text-align: justify;
+}
+
+.about-content .section-subtitle{
+  color: var(--gold-color);
+  font-weight: var(--weight-semibold);
+  text-align: center;
+  font-size: var(--fs-6);
 }
